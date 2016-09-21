@@ -227,7 +227,7 @@ std::string status_json()
         << ", \"time_left\": " << time_left
         << ", \"is_somebody_playing\": " << is_somebody_playing
         << ", \"using_ingame_time\": " << INGAME_TIME
-        << ", \"dfhack_version\": " << str(DFHACK_VERSION)
+        << ", \"dfhack_version\": " << str("0.43.03-r1")
         << ", \"webfort_version\": " << str(WF_VERSION)
         << " }\n";
 

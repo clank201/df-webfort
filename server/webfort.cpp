@@ -173,7 +173,9 @@ static bool is_text_tile(int x, int y, bool &is_map)
         return false;
     }
 
-    if (IS_SCREEN(viewscreen_setupadventurest))
+    //no idea what it is supposed to do, but it doesn't compile
+    /*
+    if (IS_SCREEN(viewscreen_setupadventurest)) 
     {
         df::viewscreen_setupadventurest *s = static_cast<df::viewscreen_setupadventurest*>(ws);
         if (s->subscreen != df::viewscreen_setupadventurest::Nemesis)
@@ -183,6 +185,7 @@ static bool is_text_tile(int x, int y, bool &is_map)
 
         return false;
     }
+    */
 
     if (IS_SCREEN(viewscreen_choose_start_sitest))
     {
